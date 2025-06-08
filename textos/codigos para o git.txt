@@ -1,0 +1,18 @@
+🔁 Resumo completo da rotina de trabalho
+1. Antes de começar a trabalhar (em qualquer máquina):
+
+cd site_apvs
+git pull origin main
+
+
+2. Depois que terminar alguma parte e quiser salvar no GitHub:
+
+cd_apvs
+git add .
+git commit -m "ajustei para cell, adicionei um texto, alinhei as coisas"
+git push origin main
+
+(se eu estiver em MASTER )
+git branch -M main
+git push -u origin main
+ (tem que mudar para main)
