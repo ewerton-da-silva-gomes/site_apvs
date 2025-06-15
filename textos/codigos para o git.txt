@@ -9,7 +9,7 @@ git pull origin main
 
 cd_apvs
 git add .
-git commit -m "mini ajuste"
+git commit -m "ajustei a tela p/ celular, textos e add icones e um svg"
 git push origin main
 
 (se eu estiver em MASTER )

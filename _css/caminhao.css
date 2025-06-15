@@ -4,6 +4,7 @@
     /* Permite quebrar linha */
     justify-content: center;
     align-items: center;
+    margin-left: -18%;
 }
 
 .icon_canto {
@@ -61,6 +62,32 @@
     box-shadow: 1px -7px 0px 3px rgba(0, 0, 0, 0.1);
 }
 
+.cotacao{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.div-cotacao{
+    margin-top: 2%;
+    width: 100%;
+}
+
+.texto-cotacao{
+    font-size: 150%;
+}
+
+.botao-cotacao{
+    background-color: #ffc300;
+    border: 1px solid #ffc300;
+    border-radius: 18px;
+    padding: 10px 20px;
+}
+
+.link-cotacao{
+    font-size: 150%;
+}
 
 
 /* Para telas menores que 768px (celular) */
@@ -70,6 +97,7 @@
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
+            margin-left: 0%;
     }
 
     .icon-nav {
@@ -89,4 +117,14 @@
         font-size: 1.2em;
         /* Menor para caber bem */
     }
+
+    .texto-cotacao {
+        font-size: 100%;
+        margin-top: 10%;   
+    }
+
+    .div-cotacao{
+        margin-top: 5%;
+    }
+
 }
