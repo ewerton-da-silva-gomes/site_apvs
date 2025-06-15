@@ -13,6 +13,7 @@
 .icon_truck {
     display: flex;
     justify-content: center;
+    margin-top: auto;
 }
 
 .icon-nav {
